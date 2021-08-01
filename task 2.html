@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        'use strict'
+        let a = 2;
+        let x = 1 + (a *= 2);
+        alert(x)
+        alert(a)
+        /*
+        a изначально равно двум. Когда мы задаем переменную x, мы меняем значение a при помощи выражения a *= 2.
+        Дословно в этом выражении меняем значение a на a*2 (a = a * 2). Значение а по итогу равно четырем. Значение
+        x же равно уже измененному значению a, к которому мы прибавили 1, то есть 5.
+        */
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        'use strict'
+        function plus(a, b) {
+            return a + b
+        }
+        function multipl(a, b) {
+            return a * b
+        }
+        function division(a, b) {
+            return a / b
+        }
+        function minus(a, b) {
+            return a - b
+        }
+        let arg1 = +prompt('Введите первый аргумент')
+        let arg2 = +prompt('Введите второй аргумент')
+        let operation = prompt('Введите знак операции')
+        switch (operation) {
+            case '+':
+                alert(plus(arg1, arg2))
+                break
+            case '-':
+                alert(minus(arg1, arg2))
+                break
+            case '*':
+                alert(multipl(arg1, arg2))
+                break
+            case '/':
+                alert(division(arg1, arg2))
+                break
+            default:
+                alert('Вы ввели неверные данные')
+        }
+    </script>
+</body>
+
+</html>
